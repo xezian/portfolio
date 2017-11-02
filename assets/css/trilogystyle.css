@@ -2,17 +2,76 @@ body {
     background-image: url("../images/intersection/intersection.png");
     /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
 }
-nav {
+nav, .navbar-toggler, .navbar {
     background-color:#ffffff;
+}
+h1 {
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 15%;
+    width: 100%;
+    line-height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+h2 {
+    background-color: #ffffff;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+h3 {
+    background-color: #ffffff;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-top: 5px;
+    color: #4aaaa5;
+}
+h4 {
+    position: absolute;
+    margin-top: 33%;
+    left: 15px;
+    right: 15px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(11,173,167, 0.7);
+    padding: 10px 0px;
+    z-index: 1;
 }
 a, a:hover {
     text-decoration: none;
     color: #777777
 }
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 2px solid #cccccc;
+}
+.card-header {
+    background-color: #ffffff;
+}
 .mystuff, .contactstuff, .portmystuff {
     position: relative;
-    margin-top: 11%;
+    margin-top: 17%;
     margin-bottom: 65px;
+}
+.card {
+    margin-bottom: 20px;
+}
+.portpic {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 .soicon {
     width: 44.66px;
@@ -39,7 +98,7 @@ a, a:hover {
     clear: both;
     height: 70px;
     color: #cccccc;
-    margin-top: 2%;
+    margin-top: 1%;
     font-size: 12px;
     background-color:#666666;
     border-top: 7px solid #4aaaa5;
