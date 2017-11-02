@@ -3,66 +3,16 @@ body {
     /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
 }
 nav {
-    background-color: rgb(165, 165, 196);
+    background-color:#ffffff;
 }
 a, a:hover {
     text-decoration: none;
-}
-a {
-    color: white;
-}
-a:hover {
-    color: rgb(119, 119, 175);
-}
-h1 {
-    font-family: 'Offside', cursive;
-    color: white;
-}
-p, h4, li, label, button, input, textarea, footer {
-    font-family: 'Share Tech Mono', monospace;
-}
-input::placeholder, textarea::placeholder {
-    font-family: 'Lancelot', cursive;
-}
-h2, h3 {
-    font-family: 'Sirin Stencil', cursive;
-}
-.card {
-    margin-bottom: 20px;
+    color: #777777
 }
 .mystuff, .contactstuff, .portmystuff {
     position: relative;
     margin-top: 11%;
     margin-bottom: 65px;
-}
-.portpic {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 10px;
-}
-.propic {
-    margin-bottom: 20px;
-}
-/* .stay I made to keep the bottom edge of the contact me card from changing size when the icons are in :hover mode, without affecting the other cards */
-.stay {
-    height: 90px;
-}
-.choral {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: transparent;
-    position: relative;
-}
-.choral:hover {
-    -webkit-animation-name: choral; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
-    animation-name: choral;
-    animation-duration: 5s;
-    animation-iteration-count: 2;
-    animation-direction: alternate; 
 }
 .soicon {
     width: 44.66px;
@@ -88,12 +38,30 @@ h2, h3 {
     width: 100%;
     clear: both;
     height: 70px;
-    color: white;
+    color: #cccccc;
     margin-top: 2%;
     font-size: 12px;
-    background-color: rgb(165, 165, 196);
+    background-color:#666666;
+    border-top: 7px solid #4aaaa5;
     text-align: center;
     line-height: 70px;
+}
+.choral {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+}
+.choral:hover {
+    -webkit-animation-name: choral; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: choral;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate; 
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes choral {
