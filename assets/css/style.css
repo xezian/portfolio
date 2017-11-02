@@ -94,64 +94,6 @@ h2, h3 {
     text-align: center;
     line-height: 70px;
 }
-/*
-.myfooter {
-    bottom: -300px;
-}
-.portfooter {
-    bottom: -300px;
-}
-.contactfooter {
-    bottom: -110px;
-}
-@media screen and (max-width: 980px) {
-    .mystuff, .contactstuff, .portmystuff {
-        top: 120px;
-    }
-}
-    /*}
-    .contactfooter {
-        bottom: -210px;
-    }
-    .portfooter {
-        bottom: -500px;
-    }
-    .myfooter {
-        bottom: -700px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .mystuff, .contactstuff, .portmystuff {
-        top: 150px;
-    }
-}
-/*   
-    .contactfooter {
-        bottom: -200px;
-    }
-    .portfooter {
-        bottom: -1270px;
-    }
-    .myfooter {
-        bottom: -1100px;
-    }
-}
-@media screen and (max-width: 640px) {
-    .mystuff, .contactstuff, .portmystuff {
-        top: 150px;
-    }
-}
-/*   
-    .contactfooter {
-        bottom: -220px;
-    }
-    .portfooter {
-        bottom: -1500px;
-    }
-    .myfooter {
-        bottom: -1200px;
-    }
-}
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes choral {
     0%   {background-color:transparent; left:0px; top:0px;}
