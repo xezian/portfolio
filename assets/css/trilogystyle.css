@@ -6,6 +6,7 @@ nav, .navbar-toggler, .navbar {
     background-color:#ffffff;
 }
 h1 {
+    margin-bottom: 0;
     font-family: "Georgia", "Times", "Times New Roman", "serif";
     font-size: 27px;
     letter-spacing: 1.5px;
@@ -57,16 +58,23 @@ a, a:hover {
     padding-bottom: 0;
     border-bottom: 2px solid #cccccc;
 }
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .card-header {
     background-color: #ffffff;
 }
 .mystuff, .contactstuff, .portmystuff {
     position: relative;
-    margin-top: 17%;
+    margin-top: 125px;
     margin-bottom: 65px;
 }
 .card {
     margin-bottom: 20px;
+}
+.stay {
+    height: 90px;
 }
 .portpic {
     height: 200px;
@@ -96,9 +104,8 @@ a, a:hover {
     position: absolute;
     width: 100%;
     clear: both;
-    height: 70px;
+    height: 80px;
     color: #cccccc;
-    margin-top: 1%;
     font-size: 12px;
     background-color:#666666;
     border-top: 7px solid #4aaaa5;
