@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/intersection/intersection.png");
+    background-image: url("../images/intersection/ignasi_pattern_s.png");
     /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
 }
 nav, .navbar-toggler, .navbar {
@@ -49,6 +49,9 @@ h4 {
     padding: 10px 0px;
     z-index: 1;
 }
+p {
+    color: #777777 
+}
 a, a:hover {
     text-decoration: none;
     color: #777777
@@ -80,6 +83,10 @@ a, a:hover {
     height: 200px;
     width: 100%;
     margin-bottom: 10px;
+}
+.propic {
+    -webkit-filter: brightness(250%) contrast(90%); 
+    margin-bottom: 20px;
 }
 .soicon {
     width: 44.66px;

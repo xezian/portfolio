@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/intersection/intersection.png");
+    background-image: url("../images/intersection/small_steps.png");
     /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
 }
 nav {
@@ -41,6 +41,7 @@ h2, h3 {
     margin-bottom: 10px;
 }
 .propic {
+    -webkit-filter: brightness(250%) contrast(90%); 
     margin-bottom: 20px;
 }
 /* .stay I made to keep the bottom edge of the contact me card from changing size when the icons are in :hover mode, without affecting the other cards */
