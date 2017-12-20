@@ -96,6 +96,21 @@ h2, h3 {
     text-align: center;
     line-height: 70px;
 }
+#contactSubmitButton {
+    background-color: rgb(165, 165, 196);
+    border: 1px solid #b5b5b5;
+    float: right;
+}
+#contactSubmitButton:focus, #contactSubmitButton:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+#contactSubmitButton:hover {
+    background-color: rgb(215, 215, 230);
+}
+#contactSubmitButton:active {
+    background-color: rgb(80, 80, 173);
+}
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes choral {
     0%   {background-color:transparent; left:0px; top:0px;}

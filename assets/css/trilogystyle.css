@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/intersection/ignasi_pattern_s.png");
+    background-image: url("../images/intersection/intersection.png");
     /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
 }
 nav, .navbar-toggler, .navbar {
@@ -11,7 +11,7 @@ h1 {
     font-size: 27px;
     letter-spacing: 1.5px;
     font-weight: bold;
-    background-color: #4aaaa5;
+    background-color: #96bfc4;
     color: #ffffff;
     margin-left: 15%;
     width: 100%;
@@ -27,7 +27,7 @@ h2 {
     font-size: 27px;
     letter-spacing: 1.5px;
     font-weight: bold;
-    color: #4aaaa5;
+    color: #96bfc4;
 }
 h3 {
     background-color: #ffffff;
@@ -36,7 +36,7 @@ h3 {
     font-weight: bold;
     letter-spacing: 1.5px;
     padding-top: 5px;
-    color: #4aaaa5;
+    color: #96bfc4;
 }
 h4 {
     position: absolute;
@@ -45,7 +45,7 @@ h4 {
     right: 15px;
     color: #ffffff;
     text-align: center;
-    background-color: rgba(11,173,167, 0.7);
+    background-color: #96bfc479;
     padding: 10px 0px;
     z-index: 1;
 }
@@ -115,7 +115,7 @@ a, a:hover {
     color: #cccccc;
     font-size: 12px;
     background-color:#666666;
-    border-top: 7px solid #4aaaa5;
+    border-top: 7px solid #96bfc4;
     text-align: center;
     line-height: 70px;
 }
@@ -135,6 +135,21 @@ a, a:hover {
     animation-duration: 5s;
     animation-iteration-count: 2;
     animation-direction: alternate; 
+}
+#contactSubmitButton {
+    background-color: #96bfc4;
+    border: 1px solid #b5b5b5;
+    float: right;
+}
+#contactSubmitButton:focus, #contactSubmitButton:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+#contactSubmitButton:hover {
+    background-color: #b5e2e8;
+}
+#contactSubmitButton:active {
+    background-color: #4cb4c2;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes choral {
