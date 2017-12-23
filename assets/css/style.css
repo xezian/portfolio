@@ -111,6 +111,12 @@ h2, h3 {
 #contactSubmitButton:active {
     background-color: rgb(80, 80, 173);
 }
+#inParagraph {
+    color: grey;
+}
+#inParagraph:hover {
+    color: purple;
+}
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes choral {
     0%   {background-color:transparent; left:0px; top:0px;}
