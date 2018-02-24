@@ -41,7 +41,8 @@ h2, h3 {
     margin-bottom: 10px;
 }
 .propic {
-    -webkit-filter: brightness(250%) contrast(90%); 
+    /* margin-top: 10vh; */
+    -webkit-filter: brightness(120%) contrast(80%); 
     margin-bottom: 20px;
 }
 /* .stay I made to keep the bottom edge of the contact me card from changing size when the icons are in :hover mode, without affecting the other cards */
