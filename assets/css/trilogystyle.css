@@ -84,9 +84,15 @@ a, a:hover {
     width: 100%;
     margin-bottom: 10px;
 }
+.whoWhatWhy {
+    margin-left: 10px;
+}
 .propic {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
     -webkit-filter: brightness(120%) contrast(80%); 
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
 }
 .soicon {
     width: 44.66px;
@@ -118,6 +124,10 @@ a, a:hover {
     border-top: 7px solid #96bfc4;
     text-align: center;
     line-height: 70px;
+}
+.myfooter {
+    bottom: 0;
+    position: fixed;
 }
 .choral {
     width: 60px;

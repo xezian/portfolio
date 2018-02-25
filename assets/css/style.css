@@ -40,10 +40,15 @@ h2, h3 {
     width: 100%;
     margin-bottom: 10px;
 }
+.whoWhatWhy {
+    margin-left: 10px;
+}
 .propic {
-    /* margin-top: 10vh; */
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
     -webkit-filter: brightness(120%) contrast(80%); 
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
 }
 /* .stay I made to keep the bottom edge of the contact me card from changing size when the icons are in :hover mode, without affecting the other cards */
 .stay {
@@ -96,6 +101,10 @@ h2, h3 {
     background-color: rgb(165, 165, 196);
     text-align: center;
     line-height: 70px;
+}
+.myfooter {
+    bottom: 0;
+    position: fixed;
 }
 #contactSubmitButton {
     background-color: rgb(165, 165, 196);
